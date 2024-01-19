@@ -1,0 +1,34 @@
+:root {
+    // Fonts
+
+    --font-main: 'Inter', sans-serif;
+    --font-accent: 'Manrope', sans-serif;
+    --font-element: 'Montserrat', sans-serif;
+
+    // Colors
+
+    --text-color: #2B2929;
+    --text-muted: #716969;
+    --text-accent: #FFF;
+
+    --header-nav-top-color: #716969;
+    --header-nav-bottom-color: #2B2929;
+    --header-text-color: #FFF;
+
+
+    --ui-card-green: #5ED270;
+    --ui-card-red: #F15D5D;
+    --ui-card-blue: #5D7EF1;
+    --ui-card-yellow-dark: #F1BF5D;
+
+    --footer-text-color: #464646;
+    --footer-bg: #FFF;
+    --footer-accent: #716969;
+
+    // Media
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--textColor);
+}

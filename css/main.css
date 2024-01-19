@@ -1,0 +1,113 @@
+/* Reset and base styles  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;800&family=Montserrat:wght@500&family=Mulish:wght@400;500;700;800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+:root {
+  --font-main: "Inter", sans-serif;
+  --font-accent: "Manrope", sans-serif;
+  --font-element: "Montserrat", sans-serif;
+  --text-color: #2B2929;
+  --text-muted: #716969;
+  --text-accent: #FFF;
+  --header-nav-top-color: #716969;
+  --header-nav-bottom-color: #2B2929;
+  --header-text-color: #FFF;
+  --ui-card-green: #5ED270;
+  --ui-card-red: #F15D5D;
+  --ui-card-blue: #5D7EF1;
+  --ui-card-yellow-dark: #F1BF5D;
+  --footer-text-color: #464646;
+  --footer-bg: #FFF;
+  --footer-accent: #716969;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--textColor);
+}/*# sourceMappingURL=main.css.map */
